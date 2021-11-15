@@ -1,4 +1,4 @@
 # auto-clear
-Just a module with one function. It clears the terminal after call. Accepts a propmt which serves nothing but a decorative purpose.
+Just a python package with some functions and classes I personally use very often. Hopefully, it will be useful to you too.
 
-`pip install git+https://github.com/nanduisme/auto-clear.git` to install.
+`pip install git+https://github.com/nanduisme/mytools.git` to install.
