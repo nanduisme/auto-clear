@@ -1,4 +1,4 @@
-def check_win(board: list[list], player_marker) -> bool:
+def check_win(board: list, player_marker) -> bool:
     """Checks win on a given tic-tac-toe board.
     - `board` must be a 3x3 nested `list` or `tuple`.
     - `player_marker` must be the marker of the player that has to be checked for the win.
