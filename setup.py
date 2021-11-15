@@ -1,13 +1,13 @@
 from setuptools import setup
-from autoclear.__init__ import __version__
+from mytools.__init__ import __version__
 
 setup(
-    name='autoclear',
+    name="mytools",
     version=__version__,
-    description='Automatically clear the terminal screen',
-    author='Nandagopal Menon',
+    description="Just a bunch of random functions and classes[coming soon!] I use very often.",
+    author="Nandagopal Menon",
     author_email="Nandagopalnmenon@gmail.com",
     url="#",
-    packages=['autoclear'],
+    packages=["mytools"],
     license="MIT",
 )
