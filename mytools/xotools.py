@@ -28,4 +28,7 @@ def check_win(board: list, player_marker) -> bool:
             return True
 
     # Diagonal case [Returns False as default case as well]
-    return board[0][0] == board[1][1] == board[2][2] == player_marker
+    return (
+        board[0][0] == board[1][1] == board[2][2] == player_marker
+        or board[0][2] == board[1][1] == board[2][0] == player_marker
+    )
