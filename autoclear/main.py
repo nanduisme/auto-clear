@@ -1,5 +1,5 @@
 def clear(propmt:str="Hit ENTER to clear..."):
-    """Clears terminal after hitting ENTER"""
+    """Clears terminal after hitting `ENTER`"""
 
     import os
     
